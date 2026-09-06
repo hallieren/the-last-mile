@@ -1,0 +1,127 @@
+site_name: The Last Mile
+site_description: A field guide to enterprise AI delivery. A demo is L0, delivery is L4.
+repo_url: https://github.com/hallieren/the-last-mile
+site_url: https://hallieren.github.io/the-last-mile/
+repo_name: hallieren/the-last-mile
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Inter
+    code: Roboto Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+
+markdown_extensions:
+  - footnotes
+  - tables
+  - admonition
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hallieren/the-last-mile
+      name: GitHub
+
+copyright: Text CC BY-NC-SA 4.0 · Code MIT · Hallie Ren
+
+nav:
+  - Home: index.md
+  - Chapters:
+      - Part 0:
+          - 0 · The Opening 48 Hours: chapters/ch00-field-mvp.md
+      - Part I · Position and Mindset:
+          - 1 · The Last Mile Problem: chapters/ch01-last-mile.md
+          - 2 · The Internal Deliverer's Position: chapters/ch02-inheritance.md
+          - 3 · Four Identities: chapters/ch03-four-identities.md
+      - Part II · Discovery:
+          - 4 · Opening and Agreement: chapters/ch04-charter.md
+          - 5 · Trust Ships First: chapters/ch05-trust.md
+          - 6 · Field Archaeology: chapters/ch06-field-archaeology.md
+          - 7 · The Opportunity Screen: chapters/ch07-opportunity.md
+      - Part III · Design:
+          - 8 · From Use Case to Boundary: chapters/ch08-thin-slice.md
+          - 9 · Data Reality: chapters/ch09-data-fitness.md
+          - 10 · Pick the Pattern: chapters/ch10-pattern-selection.md
+          - 11 · Eval as Spec: chapters/ch11-eval-as-spec.md
+          - 12 · Trust Constraints: chapters/ch12-trust-constraints.md
+          - 13 · The Trade-off Story: chapters/ch13-tradeoff-narrative.md
+      - Part IV · Build and Run:
+          - 14 · Prototype, Pilot, Production: chapters/ch14-prototype-pilot-production.md
+          - 15 · Co-build with the Engineers Who Will Take Over: chapters/ch15-cobuild.md
+          - 16 · Production Engineering: chapters/ch16-production-engineering.md
+          - 17 · From Dashboard to Action Queue: chapters/ch17-dashboard-to-queue.md
+          - 18 · Launch and Measure: chapters/ch18-launch-and-metrics.md
+      - Part V · Adoption and Transfer:
+          - 19 · Talking to Executives: chapters/ch19-executive-memos.md
+          - 20 · Resistance Is a Signal: chapters/ch20-resistance-as-signal.md
+          - 21 · Adoption Engineering: chapters/ch21-adoption-engineering.md
+          - 22 · Make the Business Side Self-Sufficient: chapters/ch22-handoff.md
+      - Part VI · Reuse and Growth:
+          - 23 · The Pattern Library: chapters/ch23-pattern-library.md
+          - 24 · From the Field to the Platform: chapters/ch24-field-to-product.md
+          - 25 · When to Say No: chapters/ch25-saying-no.md
+          - 26 · The Deliverer's Career Path: chapters/ch26-career-path.md
+  - Field Template Library:
+      - Template Index (start here): appendices/template-library-index.md
+      - Template 0 · Field MVP Pack: appendices/template-00-field-mvp-pack.md
+      - Template 2 · Deliverer Role Charter: appendices/template-02-role-charter.md
+      - Template 3 · Capability Self-Assessment and F1–F5 Rating: appendices/template-03-capability.md
+      - Template 4 · Deployment Charter and Pre-mortem Memo: appendices/template-04-deployment-charter.md
+      - Template 5 · Stakeholder Map: appendices/template-05-stakeholder-map.md
+      - Template 6 · Field Archaeology Kit: appendices/template-06-field-archaeology.md
+      - Template 7 · Five-Question Opportunity Rubric: appendices/template-07-five-questions.md
+      - Template 8 · Thin Slice Definition Sheet and Scope Decision Log: appendices/template-08-thin-slice.md
+      - Template 9 · Data Fitness Scorecard and Source of Truth Log: appendices/template-09-data-fitness.md
+      - Template 10 · Pattern Decision Table and Anti-pattern List: appendices/template-10-pattern-decision.md
+      - Template 11 · Eval Spec: appendices/template-11-eval-spec.md
+      - Template 12 · Trust Constraint Matrix and Security Review Packet: appendices/template-12-trust-matrix.md
+      - Template 14 · Stage Gate Checklist and Pilot Kill Criteria: appendices/template-14-stage-gates.md
+      - Template 15 · Co-build Agreement and Knowledge Transfer Cadence: appendices/template-15-cobuild.md
+      - Template 16 · Production Readiness Checklist and Running Budget Sheet: appendices/template-16-production-readiness.md
+      - Template 17 · Action Queue Design Patterns and Decision Trail Schema: appendices/template-17-action-queue.md
+      - Template 18 · Metric Tree, AI Incident Runbook, Same-Day Notice: appendices/template-18-metric-tree.md
+      - Template 19 · Three-Memo Set (with ADR): appendices/template-19-memo-suite.md
+      - Template 20 · Resistance Decoder and Hard Conversation Scripts: appendices/template-20-resistance-decoder.md
+      - Template 21 · Adoption Plan and Super-user Agreement: appendices/template-21-adoption-plan.md
+      - Template 22 · Handoff Plan and Five Self-Sufficiency Tests: appendices/template-22-handoff.md
+      - Template 23 · Pattern Extraction Sheet and Asset Register: appendices/template-23-pattern-extraction.md
+      - Template 24 · Field-to-Product Memo and Closeout Asset Recovery Checklist: appendices/template-24-f2p-memo.md
+      - Template 25 · Intake Rubric, Red Line List, Kill Register: appendices/template-25-intake-redlines.md
+  - Appendix:
+      - Vendor Crosswalk: appendices/internal-fde-mapping.md

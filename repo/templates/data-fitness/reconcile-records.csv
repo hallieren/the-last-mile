@@ -1,0 +1,2 @@
+claim_id,system_value,private_source_value,handler_account,verdict,pattern,notes
+,,,,consistent or inconsistent,lagging/forgotten/semantic-divergence/broken-join (leave blank if consistent),the handler's own words

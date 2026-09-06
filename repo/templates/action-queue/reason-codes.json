@@ -1,0 +1,13 @@
+{
+  "_license": "Companion template from The Last Mile. Modify freely and use at work, no attribution needed.",
+  "_note": "Sample override reason code enum (Template 17.2, sample data comes from the book's Anchor & Helm case). Each project rewrites label in front-line language; enum holds seven or fewer plus other.",
+  "_rule": "reason_code is required when decision='override'; reason_note is required when code='other'; an 'other' share over three in ten means the enum is due for a revision.",
+  "codes": [
+    { "code": "risk_differs",      "label": "Risk judgment differs",   "note": "The word that keeps showing up in the notes is the name of the next rule" },
+    { "code": "priority_differs",  "label": "Priority judgment differs", "note": "" },
+    { "code": "info_outdated",     "label": "Information outdated",    "note": "Data lag, feeds into the fitness retest" },
+    { "code": "handled_offline",   "label": "Already handled offline", "note": "Workflow escape signal, the action happened outside the system" },
+    { "code": "action_infeasible", "label": "Suggested action not feasible", "note": "" },
+    { "code": "other",             "label": "Other",                   "note": "Note required" }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "_note": "Companion template from The Last Mile. Modify freely and use at work, no attribution needed. Field → strategy: placeholder (replace with a placeholder) / hash (truncated hash, stable pseudonym, keeps cross-claim linkage) / drop (delete the field entirely); fields not listed pass through unchanged. Sample data comes from the book's Anchor & Helm case (12.1.2 privacy row).",
+  "customer_name": {"strategy": "placeholder", "placeholder": "[name]"},
+  "id_number": {"strategy": "drop"},
+  "plate_no": {"strategy": "hash"},
+  "phone": {"strategy": "hash"}
+}

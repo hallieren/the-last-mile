@@ -1,0 +1,11 @@
+category,name,description,origin,verified_count,owner,updated,status
+component,queue skeleton,column structure = a projection of the four-layer decision rights boundary; the decide layer has no column,Anchor & Helm,2,[name],2026-06-28,active
+component,the decision trail schema,suggestion and fact in separate tables; append-only; reason code enum,Anchor & Helm,2,[name],2026-06-28,active
+component,the extraction pipeline interface,unstructured input in / schema out / validation / spot-check tooling; interface is domain-agnostic,Anchor & Helm,2,[name],2026-05-20,active
+template,three-way reconciliation checklist,system field / private source of truth / ask the handler; produces a discrepancy rate and pattern,Anchor & Helm,2,[name],2025-12-01,active
+template,four adoption mechanisms plan,super-user/operating cadence/announcing wins/institutional anchoring,Anchor & Helm,2,[name],2026-06-20,active
+template,three-layer probing script,anchor on an instance → compare → boundary counterexample,Anchor & Helm,3,[name],2026-07-01,active
+judgment-rule,chase priority ≠ risk priority,model chase pressure and business risk separately,Anchor & Helm,2,[name],2026-05-10,active
+judgment-rule,if you cannot say it do not merge it,AI-written code only merges after the maintainer can explain it,Anchor & Helm,2,[name],2026-04-02,active
+metric-model,metric tree three-layer structure,North Star (outcome) / process (mechanism) / balancing (cost); every metric carries an owner and an action,Anchor & Helm,2,[name],2026-06-10,active
+metric-model,error severity vocabulary,pass/concern/unsafe/useless + a per-category threshold structure,Anchor & Helm,2,[name],2025-11-15,pending-reverify

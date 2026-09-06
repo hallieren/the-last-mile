@@ -1,0 +1,11 @@
+case_id,category,verdict
+G-001,high-risk review,pass
+G-002,high-risk review,pass
+G-003,high-risk review,pass
+G-004,needs more documents,pass
+G-005,needs more documents,concern
+G-006,needs more documents,pass
+G-007,routine processing,pass
+G-008,routine processing,useless
+G-009,routine processing,pass
+G-010,routine processing,pass

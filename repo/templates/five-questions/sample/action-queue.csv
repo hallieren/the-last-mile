@@ -1,0 +1,6 @@
+candidate,proposed_by,question,score,evidence,condition_or_reevaluation_condition
+exceptions action queue,Field MVP readout,Pain,5,"About six tenths of the waiting time is ""waiting on documents with nobody chasing."" Backed by the review team's own words and ticket volume.",Reconcile the core system against the Excel data during discovery.
+exceptions action queue,Field MVP readout,Data,3,"The data exists, the owner is named, and a sample is in hand, but the core system and the review team's Excel have not been reconciled for trustworthiness.",
+exceptions action queue,Field MVP readout,Decision,4,"Enters at the advise layer (queue ordering). Linda Marsh's team is the backstop, and an error can be overridden on the spot.",
+exceptions action queue,Field MVP readout,Risk,4,"The worst single output is a ranking error, the loss stays inside and can be closed out.",
+exceptions action queue,Field MVP readout,ROI,4,Waiting time × per-claim cost as the conversion. Grant Whitmore is willing to own that bill in his own reporting.,

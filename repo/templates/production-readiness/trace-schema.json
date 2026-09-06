@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Companion template from The Last Mile. Modify freely and use at work, no attribution needed. Minimum field list for a full-chain trace (Template 16.1 observability). A trace is not the decision trail: a trace answers 'why does this suggestion look the way it does' (engineering replay), the decision trail answers 'who decided what' (an audit commitment, see templates/action-queue/schema.sql). You need both. The field structure lines up with the decision trail's six fields (basis / what was said / when), and human decisions plus the decider go into the decision trail table only, never into the trace.",
+  "title": "trace-record",
+  "type": "object",
+  "required": ["trace_id", "claim_id", "input_snapshot", "retrieved_content",
+               "prompt_version", "model_version", "rule_hits", "final_display",
+               "created_at"],
+  "properties": {
+    "trace_id":          { "type": "string", "description": "trace primary key" },
+    "claim_id":          { "type": "string", "description": "claim number, matches the source system's primary key, can be looked up" },
+    "input_snapshot":    { "type": "string", "description": "input snapshot / fingerprint reference (lines up with the decision trail: basis)" },
+    "retrieved_content": { "type": "array", "items": { "type": "string" },
+                           "description": "list of references to retrieved content (fingerprints of the retrieved snippets that went into the prompt)" },
+    "prompt_version":    { "type": "string", "description": "prompt version (lines up with the decision trail: basis)" },
+    "model_version":     { "type": "string", "description": "model version" },
+    "rule_hits":         { "type": "array", "items": { "type": "string" },
+                           "description": "rules hit and their version (e.g. 'repair shop list rule v12')" },
+    "final_display":     { "type": "string", "description": "the exact suggestion and reasoning finally shown to the person handling it (lines up with the decision trail: what was said)" },
+    "created_at":        { "type": "string", "description": "generation timestamp, ISO 8601 (lines up with the decision trail: when)" }
+  }
+}

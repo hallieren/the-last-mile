@@ -1,0 +1,17 @@
+# English edition only (inert for zh). Case-insensitive substrings that must not appear in docs/ or repo/.
+# Romanized names: every character and company has a canonical English name in the termbase.
+Shen Zhinan
+Zhinan
+Zhou Kai
+Chen Hui
+Ma Yuan
+Tang Yue
+Xiao Zhao
+Anheng
+An Heng
+Xuntong
+Xun Tong
+# Near-miss canonicals
+Anchor and Helm
+Swift Way
+Internal FDE Crosswalk

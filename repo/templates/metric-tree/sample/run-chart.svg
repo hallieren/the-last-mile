@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" font-family="sans-serif">
+<rect width="760" height="420" fill="#ffffff"/>
+<text x="64" y="26" font-size="15" fill="#1a1a1a">first-touch handling time for auto exceptions (weekly median, hours)</text>
+<text x="64" y="44" font-size="11" fill="#707070">Baseline = median of the first 6 points, 40.8. Special cause rule: six points in a row on one side (The Health Care Data Guide)</text>
+<line x1="64" y1="56.0" x2="732" y2="56.0" stroke="#ececec" stroke-width="1"/>
+<text x="56" y="60.0" font-size="11" fill="#707070" text-anchor="end">43.5</text>
+<line x1="64" y1="131.0" x2="732" y2="131.0" stroke="#ececec" stroke-width="1"/>
+<text x="56" y="135.0" font-size="11" fill="#707070" text-anchor="end">40.2</text>
+<line x1="64" y1="206.0" x2="732" y2="206.0" stroke="#ececec" stroke-width="1"/>
+<text x="56" y="210.0" font-size="11" fill="#707070" text-anchor="end">36.9</text>
+<line x1="64" y1="281.0" x2="732" y2="281.0" stroke="#ececec" stroke-width="1"/>
+<text x="56" y="285.0" font-size="11" fill="#707070" text-anchor="end">33.6</text>
+<line x1="64" y1="356.0" x2="732" y2="356.0" stroke="#ececec" stroke-width="1"/>
+<text x="56" y="360.0" font-size="11" fill="#707070" text-anchor="end">30.3</text>
+<rect x="413.8" y="56" width="302.3" height="300" fill="#c4461d" opacity="0.07"/>
+<text x="413.8" y="70" font-size="11" fill="#c4461d">special cause: 6 points in a row below the median</text>
+<line x1="64" y1="117.8" x2="732" y2="117.8" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="732" y="111.8" font-size="11" fill="#555555" text-anchor="end">baseline median 40.8</text>
+<polyline points="91.8,113.2 147.5,158.5 203.2,122.3 258.8,90.6 314.5,181.1 370.2,104.2 425.8,282.9 481.5,294.2 537.2,276.1 592.8,307.8 648.5,319.1 704.2,321.4" fill="none" stroke="#4269d0" stroke-width="2"/>
+<circle cx="91.8" cy="113.2" r="4" fill="#ffffff" stroke="#4269d0" stroke-width="2"/>
+<circle cx="147.5" cy="158.5" r="4" fill="#ffffff" stroke="#4269d0" stroke-width="2"/>
+<circle cx="203.2" cy="122.3" r="4" fill="#ffffff" stroke="#4269d0" stroke-width="2"/>
+<circle cx="258.8" cy="90.6" r="4" fill="#ffffff" stroke="#4269d0" stroke-width="2"/>
+<circle cx="314.5" cy="181.1" r="4" fill="#ffffff" stroke="#4269d0" stroke-width="2"/>
+<circle cx="370.2" cy="104.2" r="4" fill="#ffffff" stroke="#4269d0" stroke-width="2"/>
+<circle cx="425.8" cy="282.9" r="4" fill="#ffffff" stroke="#c4461d" stroke-width="2"/>
+<circle cx="481.5" cy="294.2" r="4" fill="#ffffff" stroke="#c4461d" stroke-width="2"/>
+<circle cx="537.2" cy="276.1" r="4" fill="#ffffff" stroke="#c4461d" stroke-width="2"/>
+<circle cx="592.8" cy="307.8" r="4" fill="#ffffff" stroke="#c4461d" stroke-width="2"/>
+<circle cx="648.5" cy="319.1" r="4" fill="#ffffff" stroke="#c4461d" stroke-width="2"/>
+<circle cx="704.2" cy="321.4" r="4" fill="#ffffff" stroke="#c4461d" stroke-width="2"/>
+<text x="91.8" y="376" font-size="11" fill="#707070" text-anchor="middle">Week 1</text>
+<text x="147.5" y="376" font-size="11" fill="#707070" text-anchor="middle">Week 2</text>
+<text x="203.2" y="376" font-size="11" fill="#707070" text-anchor="middle">Week 3</text>
+<text x="258.8" y="376" font-size="11" fill="#707070" text-anchor="middle">Week 4</text>
+<text x="314.5" y="376" font-size="11" fill="#707070" text-anchor="middle">Week 5</text>
+<text x="370.2" y="376" font-size="11" fill="#707070" text-anchor="middle">Week 6</text>
+<text x="425.8" y="376" font-size="11" fill="#707070" text-anchor="middle">Week 7</text>
+<text x="481.5" y="376" font-size="11" fill="#707070" text-anchor="middle">Week 8</text>
+<text x="537.2" y="376" font-size="11" fill="#707070" text-anchor="middle">Week 9</text>
+<text x="592.8" y="376" font-size="11" fill="#707070" text-anchor="middle">Week 10</text>
+<text x="648.5" y="376" font-size="11" fill="#707070" text-anchor="middle">Week 11</text>
+<text x="704.2" y="376" font-size="11" fill="#707070" text-anchor="middle">Week 12</text>
+</svg>

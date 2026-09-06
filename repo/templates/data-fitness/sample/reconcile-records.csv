@@ -1,0 +1,11 @@
+claim_id,system_value,private_source_value,handler_account,verdict,pattern,notes
+AH-2025-0143,closed,closed,the payout landed last week,consistent,,
+AH-2025-0217,in progress,submitted for review,the paperwork is complete and waiting on review sign-off,inconsistent,lagging,"the status only changes once the workflow step finishes running, a week or two behind is normal"
+AH-2025-0311,pending materials,materials received (7/2),everything came in last Tuesday,inconsistent,lagging,nobody is in a hurry to update that field in the system
+AH-2025-0355,closed,in progress,this one closed a while ago,inconsistent,forgotten,"forgot to check that row in the spreadsheet, this tracker only gets updated once things quiet down"
+AH-2025-0402,complete,in progress,the estimate is done but the payout has not gone through,inconsistent,semantic-divergence,"the system's 'complete' means the estimate is done, we mean the whole claim"
+AH-2025-0468,no record found,a record exists (original claim AH-2025-0468-B),the claim was split partway through and the old and new numbers were never linked,inconsistent,broken-join,"once it was split, the old number became an orphan"
+AH-2025-0501,in progress,in progress,still waiting on the other insurer,consistent,,
+AH-2025-0533,closed,closed,it's closed,consistent,,
+AH-2025-0587,pending materials,pending materials,still missing the repair invoice,consistent,,
+AH-2025-0619,in progress,in progress,it's in review,consistent,,

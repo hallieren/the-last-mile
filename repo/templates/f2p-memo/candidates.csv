@@ -1,0 +1,3 @@
+signal,department,proposed_by,date,n,status,trigger_or_revival_condition
+Repair-shop response-time metric,Anchor & Helm,the survey team lead,Week 23,1,candidate,Any second project that raises an "outside party response time" need promotes this to a memo
+queue scaffolding,Anchor & Helm + Swiftway,[you],after week 32 (memo #3),2,refused but recorded (conflicts with the existing roadmap),Re-raise it if the platform roadmap ever reshapes the queue's format.

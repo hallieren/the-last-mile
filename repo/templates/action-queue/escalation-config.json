@@ -1,0 +1,31 @@
+{
+  "_license": "Companion template from The Last Mile. Modify freely and use at work, no attribution needed.",
+  "_note": "Sample config for the rollup view and exception escalation rules (Template 17.1's two companion pieces, sample data comes from the book's Anchor & Helm case). Escalation thresholds are backed out from how many items a recipient is willing to look at each day (the 'time' leg of the three oversight questions); keep signal categories to three or fewer to avoid alert fatigue.",
+  "aggregate_view": {
+    "group_by": ["team", "category", "aging bucket"],
+    "drill_down": "Clicking into any number lands on the queue itself. The rollup view is the entrance to the queue, not a parallel big screen."
+  },
+  "escalation_rules": [
+    {
+      "signal_category": "aging exceeded",
+      "condition": { "metric": "business days in queue", "gt": 3 },
+      "recipient": "Linda Marsh (review team lead)",
+      "daily_max_items": 10,
+      "action": "claim and clear same day"
+    },
+    {
+      "signal_category": "high risk unaddressed",
+      "condition": { "metric": "business days in queue for risk-flagged items", "gt": 1 },
+      "recipient": "Linda Marsh (review team lead)",
+      "daily_max_items": 5,
+      "action": "escalate to manual review first"
+    },
+    {
+      "signal_category": "status in doubt",
+      "condition": { "metric": "length of the status-in-doubt list", "gt": 5 },
+      "recipient": "Kevin Doyle (owner)",
+      "daily_max_items": 5,
+      "action": "the review team's daily ten-minute status-clearing discipline check"
+    }
+  ]
+}

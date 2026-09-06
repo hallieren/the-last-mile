@@ -1,0 +1,23 @@
+name: smoke
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile all Python
+        working-directory: repo
+        run: python -m compileall -q .
+      - name: Code hooks sync check
+        run: python3 scripts/check_code_hooks.py
+      - name: Term gate
+        run: python3 scripts/check_terms.py
+      - name: No edition strings in shared code
+        run: "! grep -rnEf scripts/term-gate/edition-strings.txt scripts/*.py scripts/*.sh .github/"

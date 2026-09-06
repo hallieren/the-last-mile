@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="460" font-family="sans-serif" font-size="13">
+<rect width="460" height="460" fill="white"/>
+<text x="230" y="26" text-anchor="middle" font-size="15">radar</text>
+<polygon points="230.0,198.0 260.4,220.1 248.8,255.9 211.2,255.9 199.6,220.1" fill="none" stroke="#cccccc"/>
+<text x="235" y="202.0" fill="#999999" font-size="10">1</text>
+<polygon points="230.0,166.0 290.9,210.2 267.6,281.8 192.4,281.8 169.1,210.2" fill="none" stroke="#cccccc"/>
+<text x="235" y="170.0" fill="#999999" font-size="10">2</text>
+<polygon points="230.0,134.0 321.3,200.3 286.4,307.7 173.6,307.7 138.7,200.3" fill="none" stroke="#cccccc"/>
+<text x="235" y="138.0" fill="#999999" font-size="10">3</text>
+<polygon points="230.0,102.0 351.7,190.4 305.2,333.6 154.8,333.6 108.3,190.4" fill="none" stroke="#cccccc"/>
+<text x="235" y="106.0" fill="#999999" font-size="10">4</text>
+<polygon points="230.0,70.0 382.2,180.6 324.0,359.4 136.0,359.4 77.8,180.6" fill="none" stroke="#cccccc"/>
+<text x="235" y="74.0" fill="#999999" font-size="10">5</text>
+<line x1="230" y1="230" x2="230.0" y2="70.0" stroke="#cccccc"/>
+<text x="230.0" y="53.0" text-anchor="middle">engineering depth 2.5</text>
+<line x1="230" y1="230" x2="382.2" y2="180.6" stroke="#cccccc"/>
+<text x="403.1" y="178.8" text-anchor="start">AI engineering 2.8</text>
+<line x1="230" y1="230" x2="324.0" y2="359.4" stroke="#cccccc"/>
+<text x="337.0" y="382.2" text-anchor="start">business grasp 2.4</text>
+<line x1="230" y1="230" x2="136.0" y2="359.4" stroke="#cccccc"/>
+<text x="123.0" y="382.2" text-anchor="end">narrative 2.8</text>
+<line x1="230" y1="230" x2="77.8" y2="180.6" stroke="#cccccc"/>
+<text x="56.9" y="178.8" text-anchor="end">field judgment 2.1</text>
+<polygon points="230.0,150.0 315.2,202.3 275.1,292.1 177.3,302.5 166.1,209.2" fill="#4472c4" fill-opacity="0.35" stroke="#4472c4" stroke-width="2"/>
+<circle cx="230.0" cy="150.0" r="3.5" fill="#4472c4"/>
+<circle cx="315.2" cy="202.3" r="3.5" fill="#4472c4"/>
+<circle cx="275.1" cy="292.1" r="3.5" fill="#4472c4"/>
+<circle cx="177.3" cy="302.5" r="3.5" fill="#4472c4"/>
+<circle cx="166.1" cy="209.2" r="3.5" fill="#4472c4"/>
+</svg>

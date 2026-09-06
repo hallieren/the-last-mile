@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+build/
+site/
+*.epub
+.claude/
+internal/
+.env
+.env.*
+docs/llms.txt
+docs/llms-full.txt

@@ -1,0 +1,34 @@
+{
+  "_license": "Companion template from The Last Mile. Modify freely and use at work, no attribution needed.",
+  "_note": "Sample override alert threshold config (Template 18.1.3 monitoring surface, sample data comes from the book's Anchor & Helm case). Definition: override rate is counted category by category, not averaged overall (Template 18.1.2); kept on the same sheet as the metric tree, error category definitions follow the eval spec (Template 11).",
+  "window": "week",
+  "categories": [
+    {
+      "category": "missing documents",
+      "warn_above_rate": 0.15,
+      "action": "Check the extraction pipeline and the rule implementation",
+      "owner": "our engineer on this team (rename line by line at handoff)"
+    },
+    {
+      "category": "priority",
+      "warn_above_rate": 0.20,
+      "action": "Check whether the ranking logic captures the front line's real trade-offs (chase ≠ risk)",
+      "owner": "you"
+    },
+    {
+      "category": "risk signal",
+      "warn_above_rate": 0.10,
+      "action": "Check this category's rule implementation and list version",
+      "owner": "you"
+    }
+  ],
+  "sudden_change": {
+    "rule": "A category's weekly override rate rises more than 50% above its trailing 4-week average",
+    "action": "A single-category sudden change gets a same-week P2 review (Template 18.2.1)"
+  },
+  "fairness_check": {
+    "rule": "Override distribution by customer segment, once a quarter (Chapter 12, on fairness)",
+    "action": "A significant skew triggers a fairness review",
+    "owner": "you + Victor Reyes"
+  }
+}

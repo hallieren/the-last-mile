@@ -1,0 +1,4 @@
+# English edition only (inert for zh). Lines containing these substrings skip the banned-term and FDE gates:
+# the reader-positioning sentence that points to the crosswalk, and the line that spells FDE out.
+Vendor Crosswalk
+forward deployed engineer

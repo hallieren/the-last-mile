@@ -1,0 +1,8 @@
+{
+  "_note": "Companion template from The Last Mile. Modify freely and use at work, no attribution needed. Minimal schema: field name -> {type, required, enum?}; type is one of string/number/boolean. Sample data comes from the book's Anchor & Helm case (auto exceptions extraction output).",
+  "claim_id": {"type": "string", "required": true},
+  "report_channel": {"type": "string", "required": true, "enum": ["Customer Direct", "Shop-Filed", "Call Center Forwarded"]},
+  "amount_estimate": {"type": "number", "required": true},
+  "prior_claims_count": {"type": "number", "required": false},
+  "urgent": {"type": "boolean", "required": false}
+}

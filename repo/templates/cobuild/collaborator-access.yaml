@@ -1,0 +1,36 @@
+# Companion template from The Last Mile. Modify freely and use at work, no attribution needed.
+# Sample cross-org collaborator access config (Template 15.1 Clause One). Platform-neutral: the fields
+# express "what constraint should exist." Mapping approach, GitHub: CODEOWNERS + branch protection + collaborator;
+# GitLab: members on the same instance + protected branches + approval rules; Bitbucket/Gitee use different names for the same concepts.
+# Principle: your team members commit as collaborators and exit after handoff; gatekeeping rights (who decides what merges) are registered per module with a handoff condition stated.
+
+repo:
+  owner_org: "[receiving side's department]"        # Red line: the repo sits under the receiving side's name, not your team's
+  ci: "the receiving side's existing pipeline"       # Releases follow the receiving side's process, do not build a new one
+
+codeowners:                          # Module CODEOWNERS names the receiving side, not your team (Clause One, row one)
+  - module: "the extraction pipeline"    # Sample data comes from the book's Anchor & Helm case.
+    owner: "Claims-ops IT"
+  - module: "the queue core"
+    owner: "Claims-ops IT"
+
+team_collaborators:                  # Your team members are registered here; they do not go into the receiving side's CODEOWNERS
+  - name: "[your team member's name]"
+    role: write                      # Can commit and open PRs; no admin, no org-level rights
+    handover_date: "[expected handoff date]"   # After handoff, drop write access to read-only and remove from oncall (Template 22); where the platform has no expiry, log it in the handoff checklist item by item
+  - name: "[your team member's name]"
+    role: write
+    handover_date: "[expected handoff date]"
+
+branch_protection:
+  branch: "[default branch]"
+  allow_force_push: false
+  require_review_before_merge: true  # Merges only after passing the three explain-it questions (Clause Three, see pull-request-template.md)
+  required_approvals: 1
+
+merge_gatekeepers:                   # Gatekeeping rights registered per module, row for row against the ownership-checklist.md staffing table
+  - module: "the extraction pipeline"
+    gatekeeper: "[claims-ops IT engineer's name]"
+  - module: "the queue core"
+    gatekeeper: "[your team member's name]"
+    handover_condition: "hands over to the receiving side after two consecutive reviews with no rejection"   # Before handoff day, every row's gatekeeper should sit with the receiving side

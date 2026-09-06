@@ -1,0 +1,6 @@
+candidate,proposed_by,question,score,evidence,condition_or_reevaluation_condition
+service chatbot,the board (forwarded by Grant Whitmore),Pain,3,"Call volume is real, but the bleed rate has not been measured. The call mix does not break out how much is status-chasing on exception claims.",Re-measure the call mix after exception handling is cured; the standard-answer library gets built.
+service chatbot,the board (forwarded by Grant Whitmore),Data,1,"Historical service records have no structured standard-answer library. ""The business unit says it is all there"" has no sample to back it up.",
+service chatbot,the board (forwarded by Grant Whitmore),Decision,2,"Answers customers in real time, and no one has been designated as the backstop.",
+service chatbot,the board (forwarded by Grant Whitmore),Risk,1,"Worst single output, imagined: ""Your loss assessment payment is expected within three business days."" Goes straight to the customer and cannot be recalled.",
+service chatbot,the board (forwarded by Grant Whitmore),ROI,3,"Measurable (call-handling cost), but the conversion is rough and no one has confirmed they will own that bill.",

@@ -1,0 +1,15 @@
+{
+  "lang": "en",
+  "slug": "the-last-mile",
+  "title": "The Last Mile",
+  "summary": "A demo is L0. Delivery is L4. Enterprise AI dies in the last mile, not in the model. Written for the people inside a company who take an AI project to production and into daily use: 27 chapters, 24 field templates, 22 zero-dependency scripts.",
+  "site": "https://hallieren.github.io/the-last-mile/",
+  "raw": "https://raw.githubusercontent.com/hallieren/the-last-mile/main/docs/",
+  "epub_title": "The Last Mile: A Field Guide to Deploying AI Systems That Survive the Enterprise",
+  "epub_lang": "en",
+  "author": "Hallie Ren",
+  "llms_labels": ["Site", "Full text, single file"],
+  "llms_sections": [["Chapters", "chapters/*.md"], ["Field Template Library", "appendices/template-*.md"], ["Appendix", "appendices/internal-fde-mapping.md"]],
+  "template_word": "Template",
+  "vendor_block": "!!! note \"Vendor View\""
+}

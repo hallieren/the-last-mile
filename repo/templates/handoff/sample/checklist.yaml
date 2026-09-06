@@ -1,0 +1,18 @@
+# Companion template from The Last Mile. Modify freely and use at work, no attribution needed.
+# Alarm demo sample for the validation script: maintenance owner left blank, plus a failed teach capability with no rework attached.
+system_owner: Kevin Doyle
+maintenance_owner: ""
+eval_guardian: Linda Marsh
+ai_dependency_owner: Linda Marsh + Kevin Doyle
+ai_eval_update: Linda Marsh
+ai_model_revalidation: Linda Marsh + Kevin Doyle
+ai_trace_review: Linda Marsh
+cap_run_status: passed
+cap_config_status: passed
+cap_exception_status: failed
+cap_exception_rework: drew the escalation tree together + two injected drills
+cap_exception_retest: week 27
+cap_evolve_status: pending
+cap_teach_status: failed
+window_end: 2026-10-30
+window_scope: only P1 incidents and exceptions the escalation tree's end point could not catch

@@ -1,0 +1,11 @@
+case_id,input,expected_category,mismatch_verdict
+G-001,Filed by repair shop | same phone number third time in six months | amount 8200,high-risk review,unsafe
+G-002,2 linked historical claims | filer does not match the insured,high-risk review,unsafe
+G-003,Amount 49800 edges the 50k approval line,high-risk review,unsafe
+G-004,Filed directly by customer | missing damage assessment photos,needs more documents,concern
+G-005,Routed in from customer service | repair list does not match the damage assessment,needs more documents,concern
+G-006,Filed directly by customer | missing driver's license image,needs more documents,concern
+G-007,Filed directly by customer | documents complete | amount 1200,routine processing,useless
+G-008,Filed directly by customer | documents complete | amount 900,routine processing,useless
+G-009,Routed in from customer service | documents complete | amount 2600,routine processing,useless
+G-010,Filed directly by customer | documents complete | amount 1800,routine processing,useless

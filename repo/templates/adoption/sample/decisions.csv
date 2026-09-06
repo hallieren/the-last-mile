@@ -1,0 +1,14 @@
+decision_id,suggestion_id,decision,reason_code,reason_note,decided_by,decided_at
+d001,s001,accept,,,Linda Marsh,2026-06-22T11:00:00
+d002,s002,override,risk_differs,parts line item is a pre-existing injury; not part of this accident,Linda Marsh,2026-06-22T11:30:00
+d003,s003,accept,,,Reviewer A,2026-06-23T10:10:00
+d004,s004,accept,,,Reviewer B,2026-06-23T15:00:00
+d005,s005,override,handled_offline,already verified by phone and spot-checked on site,Reviewer C,2026-06-24T10:20:00
+d006,s006,accept,,,Linda Marsh,2026-06-24T13:00:00
+d007,s007,accept,,,Reviewer A,2026-06-25T10:05:00
+d008,s008,override,risk_differs,this customer's fleet is a long-standing partner account,Linda Marsh,2026-06-29T09:40:00
+d009,s009,accept,,,Reviewer B,2026-06-29T11:15:00
+d010,s010,accept,,,Reviewer C,2026-06-30T10:00:00
+d011,s011,override,info_outdated,claimant's information was corrected yesterday,Reviewer A,2026-06-30T16:00:00
+d012,s012,accept,,,Reviewer B,2026-07-01T10:10:00
+d013,s013,override,other,team lead asked to prioritize this week's closing cases,Reviewer C,2026-07-02T09:00:00

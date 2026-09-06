@@ -1,0 +1,24 @@
+{
+  "_license": "Companion template from The Last Mile. Modify freely and use at work, no attribution needed.",
+  "_note": "Sample drift alert rules (Template 16.1 observability + 16.2 four-ledger structure; the sample values are from the book's Anchor & Helm case, your own table should hold absolute numbers). Set the alert line before the budget line, and write the action on breach down in advance. Trigger every alert by hand once before launch. An alarm that does not sound is more dangerous than no alarm.",
+  "alerts": [
+    { "ledger": "cost", "metric": "per-claim processing cost", "window": "daily",
+      "threshold": "80% of the budget line (budget line = the post-repair level × 1.5)", "action": "same-day cost review" },
+    { "ledger": "cost", "metric": "monthly total call spend", "window": "monthly",
+      "threshold": "80% of the pilot's project-approval estimate line", "action": "same-day cost review" },
+    { "ledger": "latency", "metric": "morning-peak queue refresh P95", "window": "peak hours (measured concurrency)",
+      "threshold": "3 seconds", "action": "degrade / extend precomputation" },
+    { "ledger": "error", "metric": "unsafe share", "window": "weekly spot check",
+      "threshold": 0, "action": "highest level on the first one, kill criteria (Template 14)" },
+    { "ledger": "error", "metric": "concern share", "window": "weekly spot check",
+      "threshold": 0.10, "action": "rework retrospective (threshold reuses Template 11.1.4, not invented anew)" },
+    { "ledger": "error", "metric": "useless share", "window": "weekly spot check",
+      "threshold": 0.20, "action": "rules and prompt retrospective (and the trend is not rising)" },
+    { "ledger": "degradation", "metric": "days since the last drill at each dependency point", "window": "rolling",
+      "threshold": 90, "action": "no change allowed until the drill is made up (Template 16.3)" },
+    { "ledger": "drift", "metric": "sudden shift in the input distribution (e.g. the share of newly registered repair shops)", "window": "weekly",
+      "threshold": "2x week over week", "action": "investigate at the data layer (Template 18.2.2's four retrospective questions)" },
+    { "ledger": "drift", "metric": "sudden shift in the override rate for a single category", "window": "weekly",
+      "threshold": "+50% over the prior 4-week average", "action": "check back on that category's rule implementation and list version" }
+  ]
+}

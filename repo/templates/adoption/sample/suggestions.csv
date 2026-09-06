@@ -1,0 +1,19 @@
+suggestion_id,claim_id,input_snapshot,rule_model_version,suggestion,reason,category,created_at
+s001,CL-2026-0412,missing survey photos; amount 42000,rules-v3,send missing-document chase,no survey photos received 48 hours after the claim was filed,missing docs,2026-06-22T09:10:00
+s002,CL-2026-0415,repair list does not match the estimate,rules-v3,escalate to risk review,parts line item exceeds the estimate scope,risk,2026-06-22T10:05:00
+s003,CL-2026-0418,chased 3 times; amount 6000,rules-v3,handle on normal turnaround,chase count does not change the risk tier,turnaround,2026-06-23T09:30:00
+s004,CL-2026-0421,missing copy of the vehicle registration,rules-v3,send missing-document chase,one item missing from the document checklist,missing docs,2026-06-23T14:20:00
+s005,CL-2026-0424,same repair shop; 4 claims within 30 days,rules-v3,escalate to risk review,entity clustering signal,risk,2026-06-24T09:05:00
+s006,CL-2026-0427,claim age 6 days; no missing documents,rules-v3,handle as priority,approaching the turnaround deadline,turnaround,2026-06-24T11:40:00
+s007,CL-2026-0430,missing repair invoice,rules-v3,send missing-document chase,one item missing from the closeout documents,missing docs,2026-06-25T09:15:00
+s008,CL-2026-0433,amount 89000; first claim on this policy,rules-v3,escalate to risk review,high-amount tier,risk,2026-06-29T09:00:00
+s009,CL-2026-0436,claim age 7 days; chased once,rules-v3,handle as priority,past the turnaround deadline,turnaround,2026-06-29T10:30:00
+s010,CL-2026-0439,missing two on-site photos,rules-v3,send missing-document chase,survey materials incomplete,missing docs,2026-06-30T09:20:00
+s011,CL-2026-0442,claimant does not match the insured,rules-v3,escalate to risk review,related-party anomaly signal,risk,2026-06-30T15:10:00
+s012,CL-2026-0445,claim age 5 days; no missing documents,rules-v3,handle on normal turnaround,not yet at the priority threshold,turnaround,2026-07-01T09:25:00
+s013,CL-2026-0448,missing signature page of the estimate,rules-v3,send missing-document chase,one item missing from the document checklist,missing docs,2026-07-01T16:45:00
+s014,CL-2026-0451,repair labor hours 2x the average for this vehicle model,rules-v3,escalate to risk review,labor-hours anomaly signal,risk,2026-06-25T10:00:00
+s015,CL-2026-0454,missing survey photos,rules-v3,send missing-document chase,no survey photos received 48 hours after the claim was filed,missing docs,2026-06-27T09:40:00
+s016,CL-2026-0457,claim age 8 days,rules-v3,handle as priority,past the turnaround deadline,turnaround,2026-07-02T09:10:00
+s017,CL-2026-0460,same claim-report phone number linked to 3 policies,rules-v3,escalate to risk review,related-party anomaly signal,risk,2026-07-05T11:20:00
+s018,CL-2026-0463,missing copy of the vehicle registration,rules-v3,send missing-document chase,one item missing from the document checklist,missing docs,2026-07-06T09:30:00
