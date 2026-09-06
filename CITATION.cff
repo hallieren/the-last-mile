@@ -9,6 +9,11 @@ url: "https://hallieren.github.io/the-last-mile/"
 repository-code: "https://github.com/hallieren/the-last-mile"
 license: CC-BY-NC-SA-4.0
 version: "1.0"
+doi: 10.5281/zenodo.22543659
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22543658
+    description: "Concept DOI, resolves to the latest version"
 date-released: 2026-09-06
 year: 2026
 abstract: "A Field Guide to Deploying AI Systems That Survive the Enterprise. A demo is L0. Delivery is L4. Enterprise AI dies in the last mile, not in the model. 27 chapters, 24 field templates, and 22 zero-dependency scripts, following one delivery cycle from a vague one-line ask to the day you step out of the daily."

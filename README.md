@@ -1,6 +1,6 @@
 # The Last Mile
 
-[![smoke](https://github.com/hallieren/the-last-mile/actions/workflows/smoke.yml/badge.svg)](https://github.com/hallieren/the-last-mile/actions/workflows/smoke.yml) [![docs](https://github.com/hallieren/the-last-mile/actions/workflows/docs.yml/badge.svg)](https://github.com/hallieren/the-last-mile/actions/workflows/docs.yml)
+[![smoke](https://github.com/hallieren/the-last-mile/actions/workflows/smoke.yml/badge.svg)](https://github.com/hallieren/the-last-mile/actions/workflows/smoke.yml) [![docs](https://github.com/hallieren/the-last-mile/actions/workflows/docs.yml/badge.svg)](https://github.com/hallieren/the-last-mile/actions/workflows/docs.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22543658.svg)](https://doi.org/10.5281/zenodo.22543658)
 
 > **A demo is L0. Delivery is L4. Enterprise AI dies in the last mile, not in the model.**
 
