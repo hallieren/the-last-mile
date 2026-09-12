@@ -1,0 +1,8 @@
+{
+  "name": "the-last-mile",
+  "description": "Distilled from the book The Last Mile: the judgment, decision procedures, output contracts and review checks for taking an enterprise AI initiative from a vague ask, prototype or stuck pilot into production and daily use.",
+  "version": "1.0.0",
+  "author": { "name": "Hallie Ren", "url": "https://github.com/hallieren" },
+  "homepage": "https://github.com/hallieren/the-last-mile",
+  "repository": "https://github.com/hallieren/the-last-mile"
+}

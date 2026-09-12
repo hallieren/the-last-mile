@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "the-last-mile",
+  "owner": { "name": "Hallie Ren", "url": "https://github.com/hallieren" },
+  "plugins": [
+    {
+      "name": "the-last-mile",
+      "source": "./",
+      "description": "Distilled from the book The Last Mile: the judgment, decision procedures, output contracts and review checks for taking an enterprise AI initiative from a vague ask, prototype or stuck pilot into production and daily use.",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "query": "our claims ops director wants the exceptions assistant we piloted rolled out to all 3 regions on Oct 1. pilot's been 'running' since May. I have to give a yes/no in thursday's steering meeting. here's what I know: eval last run in july, one unsafe case, satisfaction 4.3. help me decide what to say",
+    "should_trigger": true
+  },
+  {
+    "query": "VP of ops forwarded a deck saying 'we should have an AI copilot for the scheduling team'. kickoff monday. what do I actually do in week 1 so this doesn't turn into another demo that goes nowhere?",
+    "should_trigger": true
+  },
+  {
+    "query": "I need to write the one-page memo to the CFO for the invoice-matching pilot results. we targeted 30% cycle time reduction and got 22%. she decides on funding next phase at the QBR on the 14th. how do I structure it and how honest do I get about the miss?",
+    "should_trigger": true
+  },
+  {
+    "query": "Two of the five field teams basically stopped using the dispatch recommendation queue and one lead said in front of the regional manager that it's a surveillance tool. My boss wants an 'adoption recovery plan' by Friday. Where do I even start?",
+    "should_trigger": true
+  },
+  {
+    "query": "The head of underwriting wants us to let the model auto-decline applications under $5k when confidence > 0.95, says the pilot proves it works. He's the sponsor. how do I say no without losing him",
+    "should_trigger": true
+  },
+  {
+    "query": "can you review this deployment charter before it goes to the COO? (pasting below). the business side 'strongly supports' it and the owner after launch is our digital team, is that a problem?",
+    "should_trigger": true
+  },
+  {
+    "query": "our AI triage thing is in production for a year and I'm still the one on call. the business unit says 'it doesn't run without you' like it's a compliment. how do I actually hand this off and step out?",
+    "should_trigger": true
+  },
+  {
+    "query": "data engineering says all the referral data is already in the lakehouse so we're good to build the triage model. something feels off but I can't articulate it. what should I check before we commit the quarter?",
+    "should_trigger": true
+  },
+  {
+    "query": "the security review for the contract-summarization tool is in 2 weeks and the reviewer hasn't seen the design yet. they blocked the last AI project. what do I do now",
+    "should_trigger": true
+  },
+  {
+    "query": "we finished the warehouse exception project and the platform team is asking what we can 'give' them. also three other departments want 'the same thing'. how do I close this out properly and what do I hand to platform vs keep",
+    "should_trigger": true
+  },
+  {
+    "query": "my LLM-as-judge agrees with human labels 71% of the time on 200 samples. is that good enough to gate releases? how many more samples do I need for a tight interval",
+    "should_trigger": false
+  },
+  {
+    "query": "which accuracy metric should I report for my claims classifier, F1 or precision at fixed recall? the classes are imbalanced 95/5",
+    "should_trigger": false
+  },
+  {
+    "query": "fine-tune llama on our 4k support tickets or just use RAG with the base model? we care mostly about latency and cost per call",
+    "should_trigger": false
+  },
+  {
+    "query": "write me the python for a fastapi endpoint that takes an invoice pdf, calls claude to extract line items and writes them to postgres",
+    "should_trigger": false
+  },
+  {
+    "query": "I'm a vendor sales engineer, prepping a demo deck for a prospect's CIO about our AI document platform. what should the 10 slides be",
+    "should_trigger": false
+  },
+  {
+    "query": "our sprint planning for the mobile app redesign is a mess, 3 teams, no PM. how do I set up a lightweight process, no AI involved just regular software",
+    "should_trigger": false
+  },
+  {
+    "query": "draft a pre-mortem for our office move to the new building in March, 120 people, IT and facilities involved",
+    "should_trigger": false
+  },
+  {
+    "query": "explain what an agentic workflow is versus a single-step LLM call, my manager keeps using the terms interchangeably and I want to send him a clear paragraph",
+    "should_trigger": false
+  },
+  {
+    "query": "write a system prompt for a customer support bot that stays on topic and refuses to give refund amounts",
+    "should_trigger": false
+  },
+  {
+    "query": "we're choosing between two vector databases for the RAG pipeline, pinecone vs pgvector. we have ~2M chunks, latency under 200ms matters",
+    "should_trigger": false
+  }
+]

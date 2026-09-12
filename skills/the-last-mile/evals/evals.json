@@ -1,0 +1,83 @@
+{
+  "skill_name": "the-last-mile",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "My VP forwarded me this mail (see the attached file). Kickoff is Monday morning and she wants something to show the regional managers in two weeks. What do I do this week? Give me a concrete plan for the week, day by day, with what I hand over at the end of it.",
+      "expected_output": "A week plan that rewrites the ask as a workflow claim, runs a scored Field MVP with a real branch user inside 48 hours instead of building a demo, gets the red line from Compliance before starting, and ends in a readout memo with one of five conclusions.",
+      "files": [
+        "evals/fixtures/vp-forward.md"
+      ],
+      "expectations": [
+        "Rewrites the ask as a one-sentence workflow claim naming a specific role and the next action it changes (not 'help branch staff with policy questions')",
+        "The week's main deliverable is a table of real cases scored by a real user on the four grades; no persuasion chatbot/demo is built for the regional managers (a small scored-queue prototype the user marks is part of the method and is allowed), and the two-week meeting shows the scored table and readout",
+        "Names the scorer as an actual front-line user (branch staff or a Credit Policy Support agent), explicitly not the VP or a manager",
+        "Gets a red line confirmed by Compliance or a risk owner before any building starts (e.g. no customer-facing advice, no real customer data)",
+        "The readout ends with an explicit conclusion drawn from continue / narrow / redirect / get more data / stop, and states what the VP must commit (people, hours, reassessment date) if it is 'continue'"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Here's the status note for our shipment exception desk pilot (attached). The Ops Director wants me to confirm on Thursday that we go live in all four regions on the 1st. Should I confirm? Tell me what I say in Thursday's escalation meeting and what I put in writing afterwards.",
+      "expected_output": "Refuses a date-driven rollout, judges the real stage by change discipline, checks the three gates naming the excluded evidence, demands kill criteria and graduation criteria written now, and rewrites the outward commitment as a conditional.",
+      "files": [
+        "evals/fixtures/pilot-status.md"
+      ],
+      "expectations": [
+        "Judges the system as still a prototype (not a pilot) because changes ship same day with no rollback, i.e. by the change discipline, not by what it is called",
+        "Separates the approved budget from readiness: says the budget meeting settled money, not whether the system may go live",
+        "Rejects the eval evidence as-is: the replay was on an old build, and the one unsafe case cannot be discounted as an edge case (unsafe must be zero)",
+        "Rejects the satisfaction survey as evidence of willingness to use, and 'will nominate an owner later' as an owner in place",
+        "Requires kill criteria and graduation criteria to be written in the escalation meeting itself, each row with a hard number and an automatic action",
+        "Rewrites the national go-live as a conditional on clearing the gates ('live within N weeks of clearing …') and does not commit any region to going live on the 1st, not even in a reduced or assist mode"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Review this deployment charter draft before it goes to the COO for signature (attached). Tell me what has to change before it can be signed.",
+      "expected_output": "A review that flags the goal as an activity that cannot fail, the owner as the delivery team (fatal), department names instead of people, blank business commitment, 'as soon as possible' data access, acceptance deferred to after launch with an overall accuracy score, and a one-way dateless exit; only four signatures make it a charter.",
+      "files": [
+        "evals/fixtures/charter-draft.md"
+      ],
+      "expectations": [
+        "Flags 'Owner after launch: the Digital Health delivery team' as a blocking defect (the owner must be a named business-side person)",
+        "Flags the goal as an activity that cannot fail and demands one measurable outcome metric with baseline and settlement point",
+        "Flags the one-way 'may terminate at any time' exit as a disclaimer and requires two-way exit conditions with a trigger",
+        "Flags the 90% overall accuracy / 'criteria to be agreed after launch' and requires per-category release conditions tied to an eval, with unsafe at zero",
+        "Requires four signatures (sponsor, business owner, you, your own manager), not only the COO",
+        "Presents findings as a compact list (one finding per line with what to replace it with) rather than rewriting the whole charter"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Adoption is dropping in two teams and a team lead just called the system a surveillance tool in front of the regional manager (attached). My manager wants a plan to get adoption back up by Friday. What do I do, in what order?",
+      "expected_output": "Diagnoses in the fixed order (unsafe trail first: the week-4 cancelled-site incident with no notice; then the two team leads' retrospective absence; features last), names the surveillance capability instead of defending intent, books a half-day one-on-one in the field, and gets a written governance pledge issued by the regional operations manager.",
+      "files": [
+        "evals/fixtures/adoption-dip.md"
+      ],
+      "expectations": [
+        "Identifies the week-4 cancelled-site case (an unsafe output reaching a person, no incident notice) as a signal to check before treating this as an adoption problem",
+        "Identifies the two team leads' absence from the weekly retrospective as the second diagnostic step, before any feature or training change",
+        "Responds to the surveillance remark by acknowledging the system does have the capability to rank individuals, rather than explaining that it is not intended for that",
+        "Proposes a written data-use pledge issued by the regional operations manager (the business owner), not by the project team, with a stated appeal route",
+        "Books a half-day one-on-one with the objecting team lead in the field before proposing feature changes",
+        "Does not propose more training, a benefits communication campaign, or asking the sponsor to instruct the teams to use it"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "The COO wants automatic payment of invoices under 10k next quarter, no clerk in the loop (attached). He's my sponsor and my strongest backer. How do I respond, and what exactly do I say at the follow-up meeting next week?",
+      "expected_output": "A conditional no: affirms the goal, applies the irreversible-harm red line test to a wrong payment, states the risk in the auditor's and CFO's ledger, and offers a stepwise path (one decision-rights layer up at a time with a measurable threshold and an audit answer), never 'the model will make mistakes' or 'the schedule is full'.",
+      "files": [
+        "evals/fixtures/coo-automation.md"
+      ],
+      "expectations": [
+        "Applies the test 'can the harm from the single worst output be taken back' to an automatic payment and concludes it cannot (a red line), rather than arguing accuracy",
+        "Frames the risk in the auditor's and CFO's terms (the management letter's human-review requirement, last year's duplicate-payment audit finding), not as the model's error probability",
+        "Affirms the COO's goal (freeing clerks) before refusing the path, and offers a conditional path: move one decision-rights layer at a time with a measurable threshold and a rollback answer",
+        "Does not say 'the model will make mistakes', 'AI is not mature enough', or 'the schedule is full' as the reason",
+        "Involves the AP manager (business owner) and the auditors' question explicitly in the path, and writes the refused option into a register with a revival condition stated as an event"
+      ]
+    }
+  ]
+}

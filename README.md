@@ -19,6 +19,10 @@ Written for the people inside a company who are accountable for taking an AI pro
 
 Every chapter's "Next Monday" section is followed by a block you can paste straight into Claude Code, Codex, or any coding agent. It copies the chapter's templates into your working directory, runs the companion scripts on their sample data, asks you field by field instead of making things up, and stops where the call is yours to make. The one-time setup block is in [Start Here](docs/index.md). An agent can also read the whole book: [llms.txt](https://hallieren.github.io/the-last-mile/llms.txt) (index) and [llms-full.txt](https://hallieren.github.io/the-last-mile/llms-full.txt) (full text).
 
+## Skill
+
+`skills/the-last-mile/` is a Claude Skill distilled from the book: the judgment, decision procedures, output contracts and review checks for the moments where an AI project lives or dies, plus the main delivery chain as 13 fill-in templates and four stdlib scripts. In Claude Code, install it with `/plugin marketplace add hallieren/the-last-mile` then `/plugin install the-last-mile@the-last-mile`, or by hand with a symlink (see `skills/the-last-mile/README.md`). The book stays the source of truth; where the skill and a chapter disagree, the chapter wins.
+
 ## Chapters
 
 | # | Chapter | Templates |
