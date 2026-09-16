@@ -1,6 +1,6 @@
 # Field Kit: Companion Templates for The Last Mile
 
-This directory holds the companion assets for *The Last Mile: A Field Guide to Deploying AI Systems That Survive the Enterprise*, working implementations of every part of the book's 24 appendix templates that can be turned into scaffolding. **Readers may modify the templates and scripts freely and use them at work, no attribution needed** (see LICENSE in this directory, MIT).
+This directory holds the companion assets for *The Last Mile*, working implementations of every part of the book's 24 appendix templates that can be turned into scaffolding. **Readers may modify the templates and scripts freely and use them at work, no attribution needed** (see LICENSE in this directory, MIT).
 
 ## How to Use
 

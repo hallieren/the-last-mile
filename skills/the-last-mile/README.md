@@ -1,6 +1,6 @@
 # the-last-mile
 
-A Claude Skill distilled from *The Last Mile: A Field Guide to Deploying AI Systems That Survive the Enterprise* (this repository). It is for the person inside an organization who is accountable for taking an AI initiative from a vague ask, a prototype or a stuck pilot into production and daily use, and who has to rule on what happens next: take it or not, start the pilot or not, roll out or not, step out or not.
+A Claude Skill distilled from *The Last Mile* (this repository). It is for the person inside an organization who is accountable for taking an AI initiative from a vague ask, a prototype or a stuck pilot into production and daily use, and who has to rule on what happens next: take it or not, start the pilot or not, roll out or not, step out or not.
 
 It is not a summary of the book. `SKILL.md` carries the judgment the book repeats across chapters (a named owner and a fixed moment its numbers are read; evidence is something that already happened; unsafe is counted in cases; events, never dates; drafted by you, issued by the one with the power to violate it), a router by situation, the decision procedures for the moments where projects live or die, the output contracts for the artifacts, a table of the sentences people say when a project is dying and what it would take instead, and a review mode with a closed tag set. `references/` holds one file per moment; `templates/` holds the book's main delivery chain as 13 fill-in files; `scripts/` holds four stdlib tools.
 

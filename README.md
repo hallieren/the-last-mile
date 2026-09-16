@@ -2,7 +2,7 @@
 
 [![smoke](https://github.com/hallieren/the-last-mile/actions/workflows/smoke.yml/badge.svg)](https://github.com/hallieren/the-last-mile/actions/workflows/smoke.yml) [![docs](https://github.com/hallieren/the-last-mile/actions/workflows/docs.yml/badge.svg)](https://github.com/hallieren/the-last-mile/actions/workflows/docs.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22543658.svg)](https://doi.org/10.5281/zenodo.22543658)
 
-> **A demo is L0. Delivery is L4. Enterprise AI dies in the last mile, not in the model.**
+> **How Does an AI Demo Become Something People Actually Use?**
 
 Written for the people inside a company who are accountable for taking an AI project to production and into daily use, whatever their title. Two assumptions: you can build the system yourself or have someone next to you who can, and the project has a sponsor who can commit people and schedule, even if that is only your own manager. The vendor-side FDE is where this method comes from; the [Vendor Crosswalk](docs/appendices/internal-fde-mapping.md) maps every chapter to that seat. 27 chapters, 24 field templates, and 22 zero-dependency scripts, following one delivery cycle from a vague one-line ask to the day you step out of the daily. The guide (reading paths, the fire index, the template main chain) is in [docs/index.md](docs/index.md).
 

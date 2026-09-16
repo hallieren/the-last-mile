@@ -1,6 +1,6 @@
 # Start Here
 
-> **A demo is L0. Delivery is L4. Enterprise AI dies in the last mile, not in the model.**
+> **How Does an AI Demo Become Something People Actually Use?**
 
 The mortality curve of enterprise AI projects is not about model capability. Between demo and production lie five gaps, **data, workflow, trust, ownership, value**, and none of them can be filled by writing code. This book's unit of measure is the **outcome ladder (L0 demo → L4 self-sufficient)**, and the deliverer's unit of value is the production outcome, not the demo.
 
