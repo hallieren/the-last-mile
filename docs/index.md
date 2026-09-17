@@ -1,5 +1,7 @@
 # Start Here
 
+<img src="assets/cover.png" alt="The Last Mile book cover" width="220" align="right">
+
 > **How Does an AI Demo Become Something People Actually Use?**
 
 The mortality curve of enterprise AI projects is not about model capability. Between demo and production lie five gaps, **data, workflow, trust, ownership, value**, and none of them can be filled by writing code. This book's unit of measure is the **outcome ladder (L0 demo → L4 self-sufficient)**, and the deliverer's unit of value is the production outcome, not the demo.

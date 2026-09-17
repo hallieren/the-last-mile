@@ -15,5 +15,6 @@ pandoc "${files[@]}" \
   --metadata title="$(meta epub_title)" \
   --metadata author="$(meta author)" --metadata lang="$(meta epub_lang)" \
   --toc --toc-depth=2 --resource-path=docs:docs/chapters:docs/appendices \
+  --epub-cover-image docs/assets/cover.png \
   -o "$out"
 echo "OK: $out"
